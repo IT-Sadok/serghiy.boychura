@@ -104,6 +104,7 @@ namespace FurnitureApp
 
             furnitureService.UpdateFurniture(id, name, furnitureType, price, furnitureMaterial);
         }
+        
 
         static void DeleteFurniture(IFurnitureService furnitureService)
         {
