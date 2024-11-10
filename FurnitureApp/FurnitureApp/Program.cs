@@ -79,7 +79,7 @@ namespace FurnitureApp
 
         static void EditFurniture(IFurnitureService furnitureService)
         {
-            Console.Write("Enter furniture ID to edit: ");
+            Console.Write("Enter furniture ID to edit: "); 
             int id = int.Parse(Console.ReadLine());
 
             Console.Write("Enter new furniture name: ");
