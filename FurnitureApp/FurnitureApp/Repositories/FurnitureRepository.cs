@@ -11,10 +11,10 @@ public class FurnitureRepository : IFurnitureRepository
     public FurnitureRepository(string filePath)
     {
         _filePath = filePath;
-        EnsureDatabseFileExists();
+        EnsureDatabaseFileExists();
     }
 
-    private void EnsureDatabseFileExists()
+    private void EnsureDatabaseFileExists()
     {
         if (!File.Exists(_filePath))
         {
